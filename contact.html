@@ -560,32 +560,23 @@ include 'include/closeErrors.php'
                                     <div class="primary-menu">
                                         <ul id="primary-menu" class="menu">
                                             <li id="menu-item-3924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-418 current_page_item menu-item-3924">
-                                                <a style="background:#3498db;border-radius: 5px;opacity: 0.9;" href="index.php">HOME</a></li>
+                                                <a style="background:#3498db;border-radius: 5px;opacity: 0.9;" href="index.html">HOME</a></li>
 
                                             <li id="menu-item-4135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4135">
                                                 <a href="events.php">EVENTS</a></li>
                                             <li id="menu-item-4422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4422">
-                                                <a style="background:#3498db;border-radius: 5px;opacity: 0.9;" href="schedule.php">Schedule</a></li>
+                                                <a style="background:#3498db;border-radius: 5px;opacity: 0.9;" href="#">Schedule</a></li>
 
                                             <li id="menu-item-4206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4206">
                                                 <a href="co-ordinators.php">CO-ORDINATORS</a></li>
                                             <li id="menu-item-4029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4029">
-                                                <a style="background:#3498db;border-radius: 5px;opacity: 0.9;" href="team.php">OUR TEAM</a></li>
+                                                <a style="background:#3498db;border-radius: 5px;opacity: 0.9;" href="#">OUR TEAM</a></li>
 
                                             <li id="menu-item-3927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3927">
                                                 <a style="text-decoration: underline;" href=#>CONTACT</a></li>
-                                            <?php
-                                            if (empty($_SESSION['std_name'])) {
-                                                echo '<li id="menu-item-4257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4257">
-                                                <a style="border : solid #3498db 2px;padding:10px;border-radius: 5px;opacity: 0.9;font-size : 15px" href="signin.php">LOGIN</a></li>
-                                                ';
-                                            } else {
-                                                echo ' <li id="menu-item-4257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4257">
-                                                <a style="border : solid #3498db 2px;padding:10px;border-radius: 5px;opacity: 0.9;font-size : 15px" href="logout.php">LOGOUT</a></li>
-                                                ';
-                                            }
-
-                                            ?>
+                                            <li id="menu-item-4257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4257">
+                                                <a style="border : solid #3498db 2px;padding:10px;border-radius: 5px;opacity: 0.9;font-size : 15px" href="#">LOGIN</a></li>
+                                                
 
                                         </ul>
 
@@ -706,7 +697,7 @@ include 'include/closeErrors.php'
                                                         }
                                                         ?>
 
-                                                        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                        <form action="#" method="post" class="wpcf7-form" novalidate="novalidate">
                                                             <div style="display: none;">
                                                                 <input type="hidden" name="_wpcf7" value="90" />
                                                                 <input type="hidden" name="_wpcf7_version" value="5.0" />
@@ -723,7 +714,7 @@ include 'include/closeErrors.php'
                                                                 </div>
                                                                 <div class="col-md-4">
                                                                     <p>
-                                                                        <span class="wpcf7-form-control-wrap your-email"><input type="email" name="email" value="<?php echo $_SESSION['std_email']; ?>" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email" required /></span>
+                                                                        <span class="wpcf7-form-control-wrap your-email"><input type="email" name="email" value=" " size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email" required /></span>
                                                                         <span style="color : red; font-size:12px;">* <?php echo $emailErr; ?></span>
                                                                     </p>
                                                                 </div>

@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Aladin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aladin Regular'), local('Aladin-Regular'), url(http://fonts.gstatic.com/s/aladin/v7/ZgNSjPJFPrvJV5fF4C3_.woff) format('woff');
+}
+@font-face {
+  font-family: 'Almendra Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Almendra Display Regular'), local('AlmendraDisplay-Regular'), url(http://fonts.gstatic.com/s/almendradisplay/v9/0FlPVOGWl1Sb4O3tETtADHRRlZhzbSbUSA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Amita';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amita Regular'), local('Amita-Regular'), url(http://fonts.gstatic.com/s/amita/v4/HhyaU5si9Om7PQls.woff) format('woff');
+}
+@font-face {
+  font-family: 'Amita';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amita Bold'), local('Amita-Bold'), url(http://fonts.gstatic.com/s/amita/v4/HhyXU5si9Om7PTHTLtCB.woff) format('woff');
+}
+@font-face {
+  font-family: 'Astloch';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Astloch Regular'), local('Astloch-Regular'), url(http://fonts.gstatic.com/s/astloch/v9/TuGRUVJ8QI5GSeUjm9sbyw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Astloch';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Astloch Bold'), local('Astloch-Bold'), url(http://fonts.gstatic.com/s/astloch/v9/TuGUUVJ8QI5GSeUjk2A-2MRFBA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Bigelow Rules';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bigelow Rules Regular'), local('BigelowRules-Regular'), url(http://fonts.gstatic.com/s/bigelowrules/v7/RrQWboly8iR_I3KWSzeRuN0zf44IGA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Butcherman';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Butcherman Regular'), local('Butcherman-Regular'), url(http://fonts.gstatic.com/s/butcherman/v10/2EbiL-thF0loflXUBOdb5zy5rA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Caesar Dressing';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caesar Dressing'), local('CaesarDressing-Regular'), url(http://fonts.gstatic.com/s/caesardressing/v7/yYLx0hLa3vawqtwdswbotmK4vrRHdrz9.woff) format('woff');
+}
